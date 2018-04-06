@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Creating style for my drawer with respect to the action Bar And Status Bar,
+        Such A way that the drawer slides over the status Bar-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/MaterialDrawer.DrawerArrowStyle</item>
+    </style>
+    <style name="MaterialDrawer.DrawerArrowStyle" parent ="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">false</item>
+        <item name ="color">@android:color/white</item>
+    </style>
+
+</resources>
