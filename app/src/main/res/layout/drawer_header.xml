@@ -9,7 +9,23 @@
         android:id="@+id/profileImageView"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/ic_profile"/>
-
-
+        android:src="@drawable/ic_profile"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="55dp"/>
+    <TextView
+        android:id="@+id/nameTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/emailTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginTop="5dp"
+        android:textSize="14sp"
+        android:textStyle="normal"/>
 </LinearLayout>
