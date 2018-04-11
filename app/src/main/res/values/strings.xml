@@ -4,4 +4,8 @@
     <string name="News">News</string>
     <string name="open_drawer">Drawer Open</string>
     <string name="close_drawer">Drawer Close</string>
+    <string name="name">Enter Name</string>
+    <string name="marks">Enter Mark Scored</string>
+    <string name="save">Save Mark</string>
+    <string name="next">Go Next</string>
 </resources>

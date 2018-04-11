@@ -127,6 +127,7 @@ public class DrawerMenuItems {
             case DRAWER_MENU_ITEM_LOGOUT:
                 Toast.makeText(mContext,"Logout",Toast.LENGTH_SHORT).show();
                 if(drawerCallBack!=null)drawerCallBack.onLogoutMenuSelected();
+                System.exit(0);
                 break;
         }
     }

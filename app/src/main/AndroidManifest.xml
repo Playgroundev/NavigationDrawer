@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".toolbar"></activity>
+        <activity android:name=".AddMarks"></activity>
     </application>
 
 </manifest>
