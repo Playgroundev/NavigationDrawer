@@ -8,4 +8,5 @@
     <string name="marks">Enter Mark Scored</string>
     <string name="save">Save Mark</string>
     <string name="next">Go Next</string>
+    <string name="placeview">Log</string>
 </resources>

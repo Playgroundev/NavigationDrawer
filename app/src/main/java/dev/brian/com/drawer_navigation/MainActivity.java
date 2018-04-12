@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 
 import com.mindorks.placeholderview.PlaceHolderView;
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
     private Toolbar mToolbar;
     private PlaceHolderView mGalleryView;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
