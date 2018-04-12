@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
-public class toolbar extends Activity {
+public class toolbar extends AppCompatActivity {
 
     Button button;
 
@@ -30,10 +30,5 @@ public class toolbar extends Activity {
 
     }
 
-
-   public void onButtonClick(View view){
-        Intent intent = new Intent(toolbar.this,AddMarks.class);
-        startActivity(intent);
-    }
 
 }
